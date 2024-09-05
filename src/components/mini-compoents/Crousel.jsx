@@ -19,7 +19,7 @@ function Carousel({ images }) {
   };
 
   return (
-    <div className="w-full max-w-3xl mx-auto my-10 relative group">
+    <div className="w-full max-w-5xl mx-auto my-10 relative group">
       <div className="overflow-hidden h-64 rounded-lg shadow-lg relative">
         <img
           src={images[currentIndex]}

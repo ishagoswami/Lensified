@@ -8,10 +8,12 @@ import HeadingText from "./mini-compoents/HeadingText";
 const images = [
   "https://ishagoswami.github.io/Lensified-NSEC/Images/events2.jpg",
   "https://ishagoswami.github.io/Lensified-NSEC/Images/mallick.jpeg",
-  "https://via.placeholder.com/800x300?text=Slide+1",
+  "media/about.jpeg",
   "https://via.placeholder.com/800x300?text=Slide+2",
-  "https://via.placeholder.com/800x300?text=Slide+3",
+  "https://ishagoswami.github.io/Lensified-NSEC/Images/events2.jpg",
 ];
+
+
 
 const cardData = [
   {
