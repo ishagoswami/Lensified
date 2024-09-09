@@ -1,5 +1,3 @@
-// src/Footer.js
-
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
@@ -8,11 +6,11 @@ const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-8 w-full rounded-lg my-10">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col md:flex-row justify-between items-start mb-6">
+        <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-6">
           {/* Follow Us Section */}
-          <div className="mb-6 md:mb-0">
+          <div className="mb-6 lg:mb-0 w-full lg:w-auto">
             <h3 className="text-lg font-bold mb-4">Follow Us:</h3>
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 items-center justify-center">
               <NavLink to="#" className="hover:text-blue-400">
                 <FaFacebook size={20} />
               </NavLink>
@@ -29,7 +27,7 @@ const Footer = () => {
           </div>
 
           {/* Other Links Section */}
-          <div className="mb-6 md:mb-0">
+          <div className="mb-6 lg:mb-0 w-full lg:w-auto">
             <h3 className="text-lg font-bold mb-4">Other Links:</h3>
             <ul className="space-y-2">
               <li>
@@ -66,7 +64,7 @@ const Footer = () => {
           </div>
 
           {/* Contact Us Section */}
-          <div>
+          <div className="w-full lg:w-auto">
             <h3 className="text-lg font-bold mb-4">Contact Us:</h3>
             <p>
               Shouvik Datta:{" "}
@@ -92,10 +90,10 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex items-center justify-between border-t border-gray-600 pt-4">
-          <img src="/path/to/logo.png" alt="Logo" className="h-10" />{" "}
+        <div className="flex flex-col lg:flex-row items-center justify-between border-t border-gray-600 pt-4">
+          <img src="/path/to/logo.png" alt="Logo" className="h-10 mb-4 lg:mb-0" />{" "}
           {/* Replace with your logo path */}
-          <p className="text-sm">
+          <p className="text-sm text-center lg:text-left">
             © {new Date().getFullYear()} Lensified. All rights reserved.
           </p>
         </div>
