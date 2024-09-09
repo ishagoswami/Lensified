@@ -20,11 +20,11 @@ function Carousel({ images }) {
 
   return (
     <div className="w-full max-w-5xl mx-auto my-10 relative group">
-      <div className="overflow-hidden h-64 rounded-lg shadow-lg relative">
+      <div className="overflow-hidden h-full rounded-lg shadow-lg relative">
         <img
           src={images[currentIndex]}
           alt="carousel"
-          className="w-full h-full object-cover transition-transform duration-700 ease-in-out"
+          className="w-full h-120 object-cover transition-transform duration-700 ease-in-out"
         />
       </div>
 
