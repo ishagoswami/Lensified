@@ -18,7 +18,7 @@ function Header() {
             class="mr-4 block cursor-pointer py-1.5 font-sans text-base font-medium leading-relaxed text-inherit antialiased"
           >
             <img
-              src="https://github.com/ishagoswami/Lensified-NSEC/blob/master/Images/logo2.png?raw=true"
+              src="/media\LENSIFIED OFFICIAL_20240901_003833_0000.jpg?"
               alt=""
               style={{ height: "50px" }}
               className="m-0 b-0"
