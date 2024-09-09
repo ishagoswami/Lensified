@@ -24,11 +24,12 @@ function Carousel({ images }) {
         <img
           src={images[currentIndex]}
           alt="carousel"
-          className="w-full h-120 object-cover transition-transform duration-700 ease-in-out"
+
+          className="w-full h-120 object-cover transition-transform duration-700 ease-in-out" /* Change h-120 to change height, you can also do full*/
         />
-           {/* Text Overlay */}
-           <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50">
-          <span className="text-white text-4xl font-bold">Lensified</span>
+        {/* Text Overlay */}
+        <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50">
+      <span className="text-white text-4xl font-bold">Lensified</span>
         </div>
       </div>
 
