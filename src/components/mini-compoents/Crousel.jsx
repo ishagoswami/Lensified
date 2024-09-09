@@ -19,13 +19,17 @@ function Carousel({ images }) {
   };
 
   return (
-    <div className="w-full max-w-5xl mx-auto my-10 relative group"> /* Change max-w-5xl to change width*/
+    <div className="w-full max-w-5xl mx-auto my-10 relative group">
       <div className="overflow-hidden h-full rounded-lg shadow-lg relative">
         <img
           src={images[currentIndex]}
           alt="carousel"
           className="w-full h-120 object-cover transition-transform duration-700 ease-in-out" /* Change h-120 to change height, you can also do full*/
         />
+        {/* Text Overlay */}
+        <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50">
+          <span className="text-white text-4xl font-bold">Lensified</span>
+        </div>
       </div>
 
       {/* Previous Button */}
