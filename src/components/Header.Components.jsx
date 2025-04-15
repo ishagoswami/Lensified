@@ -11,7 +11,7 @@ function Header() {
 
   return (
     <>
-      <nav class="block w-full max-w-screen-xl px-4 py-2 mx-auto text-white bg-gray-800 border shadow-md rounded-xl border-white/80 bg-opacity-80 backdrop-blur-2xl backdrop-saturate-200 lg:px-8 lg:py-4">
+      <nav class="block w-full px-4 py-2 mx-auto text-white bg-gray-800 border shadow-md rounded-xl border-white/80 bg-opacity-80 backdrop-blur-2xl backdrop-saturate-200 lg:px-8 lg:py-4">
         <div class="container flex items-center justify-between mx-auto text-blue-gray-900">
           <a
             href="#"
